@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Card from "./components/Card/Card.tsx"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="app">
+      <Card/>
+
+      <div class="credits" data-gfe-screenshot-exclude="true">
+        A challenge by &nbsp;
+        <a href="https://www.greatfrontend.com/projects?ref=challenges">
+          GreatFrontEnd Projects
         </a>
-      </header>
+        . Built by &nbsp;
+        <a href="https://www.greatfrontend.com/projects/u/username">
+          Tanuj Sengupta
+        </a>
+        .
+      </div>
     </div>
   );
 }
