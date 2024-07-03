@@ -6,7 +6,7 @@ import "./Card.css";
 const Card = () => {
   return (
     <div className="card-container" tabIndex={0}>
-      <div className="card-profile">
+      <div className="card-profile" style={{display:"flex"}}>
         <img src={profileImg} alt="Profile" />
         <div className="card-name-tag">
           <div className="card-name">Sarah Dole</div>
