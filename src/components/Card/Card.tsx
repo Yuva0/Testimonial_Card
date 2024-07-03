@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../../assets/logo192.png";
+import profileImg from "../../assets/profile-thumbnail.png";
 
 import "./Card.css";
 
